@@ -1,0 +1,9 @@
+这个文件是为了记录每次上传到 Github上的指令
+本地git仓库初始化：git init
+在本地创建doublen-1分支并转到此分支下：git checkout -b doublen-1
+配置用户名：git config --global user.name DoubleSpringisstrong
+配置用户邮箱：git config --global user.email 775897041@qq.com
+连接远程仓库：git remote add origin git@github.com:DoubleSpringisstrong/Hibernate_2.git
+添加要上传的东西，.代表当前文件夹下的所有文件：git add .
+将修改后的文件提交到本地仓库：git commit –m "本次提交描述"
+将本地仓库推送到远程服务器上： git push origin doublen-1
